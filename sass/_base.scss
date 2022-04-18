@@ -12,6 +12,7 @@ $bp-large: 68.75em;
 $bp-medium: 56.25em;
 $bp-small: 37.5em;
 $bp-smallest: 31.25em;
+$bp-smallest-1: 28.125em;
 
 
 :root {
@@ -51,5 +52,9 @@ body {
 	 background-size: cover;
 	 background-repeat: no-repeat;
 	 min-height: 100vh;
+
+	 ::selection{
+			background: var(--color-primary-light);
+	 }
 }
 
